@@ -1,0 +1,45 @@
+{% load static %}
+<!--loaded static files-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bookshop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="../../static/super/Css/font-awesome.css">
+    <link rel="stylesheet" href="../../static/super/Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../static/super/Css/normalize.css">
+    <link rel="stylesheet" href="../../static/super/Css/slick-theme.css">
+    <link rel="stylesheet" href="../../static/mypf/css/stl.css">
+   
+    
+    
+    <!-- google fonts link       -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Adding navbar -->
+    {% include 'mypf/index.html' %}
+    {% block content %}
+
+    {% endblock %}
+    <!--Adding footer -->
+    <!-- Adding custom js, bootsrap js, jquery and related script files-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="{% static 'mypf/js/jquery3.3.1.js' %}"></script>
+    <script src="{% static 'mypf/bootstrap-4/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'mypf/js/script.js' %}"></script>
+    
+    
+    <script src="../../static/super/js/jquery-3.3.1.min.js"></script>
+    <script src="../../static/super/js/slick.min.js"></script>
+    <script src="../../static/super/js/bootstrap.min.js"></script>
+    <script src="../../static/mypf/js/tst.js"></script>
+    
+</body>
+</html>
